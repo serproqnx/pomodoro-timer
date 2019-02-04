@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline';
+    connect-src *
+    ">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Timer</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+</body>
+
+<section class="controls">
+  <button id="timer-25">25 min</button>
+  <button id="timer-5">5 min</button>
+</section>
+
+<script>
+  require('./renderer')
+</script>
+</html>
